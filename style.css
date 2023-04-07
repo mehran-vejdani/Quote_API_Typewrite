@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 2px;
+  padding: 20px;
+  font-size: 22px;
+  background: black;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+span {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
